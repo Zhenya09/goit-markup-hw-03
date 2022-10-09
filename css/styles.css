@@ -80,12 +80,8 @@ img {
     display: flex;
 }
 
-.index:active{
-    color: #2196F3;
-}
-
-.portfolio:active{
-    color: #2196F3
+.header-list .header-link.current{
+ color: #2196F3;
 }
 
 .span-logo{
@@ -133,11 +129,11 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 30px;
     width: 696px;
     margin-left: 452px;
     margin-right: 452px;
-    margin: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .content-btn {
@@ -192,6 +188,7 @@ img {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
+        width: 270px;
         color: #757575;
 }
 
@@ -283,7 +280,12 @@ img {
     color: #2196F3;
 }
 
-.footer-address-gps:not(:last-child) {
+.list-footer:not(:last-child){
+    margin-bottom: 9px;
+
+}
+
+.footer-address-gps {
     margin-bottom: 9px;
     font-size: 14px;
         line-height: 1.71;
@@ -292,7 +294,7 @@ img {
         
 }
 
-.footer-mail:not(:last-child) {
+.footer-mail {
     margin-bottom: 9px;
         font-size: 14px;
         line-height: 1.71;
@@ -307,6 +309,10 @@ img {
 }
 /*-------------------------PORTFOLIO-------------------------*/
 /*--------------------------MAIN------------------------------*/
+.header-body{
+    border-bottom: 1px solid #ECECEC;
+}
+
 .main-btn{
     font-family: inherit;
     font-weight: 500;
