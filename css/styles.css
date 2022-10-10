@@ -188,8 +188,11 @@ img {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        width: 270px;
         color: #757575;
+}
+
+.list-desc{
+width: 270px;
 }
 
 .main{
@@ -362,9 +365,7 @@ img {
 
 
 .main-list{
-    box-sizing: border-box;
         background: #FFFFFF;
-        border: 1px solid #eeeeee;
         width: 370px;
 }
 .main-container-btn{
